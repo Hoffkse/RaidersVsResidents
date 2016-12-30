@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4640CB241C13CF0000E92700 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4640CB231C13CF0000E92700 /* main.m */; };
+		4640CB271C13CF0000E92700 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4640CB261C13CF0000E92700 /* AppDelegate.m */; };
+		4640CB2F1C13CF0000E92700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4640CB2E1C13CF0000E92700 /* Assets.xcassets */; };
+		4640CB3E1C13F95400E92700 /* StartScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4640CB3D1C13F95400E92700 /* StartScreenViewController.m */; };
+		4640CB441C13FF2100E92700 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4640CB431C13FF2100E92700 /* MainScreen.m */; };
+		4640CB471C140A6C00E92700 /* endGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4640CB461C140A6C00E92700 /* endGameViewController.m */; };
+		4640CB4A1C14FCE200E92700 /* AddStructureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4640CB491C14FCE200E92700 /* AddStructureViewController.m */; };
+		4640CB4D1C14FCFD00E92700 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4640CB4C1C14FCFD00E92700 /* AddPersonViewController.m */; };
+		4640CB4F1C15143000E92700 /* sddfsfdsfsdfdsf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4640CB4E1C15143000E92700 /* sddfsfdsfsdfdsf.jpeg */; };
+		4640CB511C1547D400E92700 /* p1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4640CB501C1547D400E92700 /* p1.jpeg */; };
+		4640CB531C1547D900E92700 /* p2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4640CB521C1547D900E92700 /* p2.jpeg */; };
+		46C8AAF61C1CB177006A381B /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 46C8AAF51C1CB177006A381B /* grass.png */; };
+		46C8AAFC1C1CB1BA006A381B /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 46C8AAFB1C1CB1BA006A381B /* tree.png */; };
+		98D2C8641C1F2DC70087138E /* yellowhoard.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D2C8631C1F2DC70087138E /* yellowhoard.png */; };
+		98D2C8661C1F31A30087138E /* redhoard.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D2C8651C1F31A30087138E /* redhoard.png */; };
+		98D2C8681C1F31A70087138E /* greenhoard.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D2C8671C1F31A70087138E /* greenhoard.png */; };
+		98D2C8721C1F5E230087138E /* fullheart.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D2C8711C1F5E230087138E /* fullheart.png */; };
+		98D2C8741C1F5E280087138E /* lossone.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D2C8731C1F5E280087138E /* lossone.png */; };
+		98D2C8761C1F5E2C0087138E /* losstwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D2C8751C1F5E2C0087138E /* losstwo.png */; };
+		98D2C8781C1F5E300087138E /* lossthree.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D2C8771C1F5E300087138E /* lossthree.png */; };
+		DFE7422A1C1CCD2500317CF1 /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742291C1CCD2500317CF1 /* b1.png */; };
+		DFE742321C1CFA3A00317CF1 /* try480320.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742311C1CFA3A00317CF1 /* try480320.png */; };
+		DFE742381C1D0E5700317CF1 /* realtitlescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742371C1D0E5700317CF1 /* realtitlescreen.png */; };
+		DFE742401C1D237B00317CF1 /* endgame.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE7423F1C1D237B00317CF1 /* endgame.png */; };
+		DFE742511C1D36D800317CF1 /* statsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE742501C1D36D800317CF1 /* statsViewController.m */; };
+		DFE742531C1D3E6100317CF1 /* citizen.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742521C1D3E6100317CF1 /* citizen.png */; };
+		DFE742551C1D42DD00317CF1 /* farmer.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742541C1D42DD00317CF1 /* farmer.png */; };
+		DFE742571C1D42E800317CF1 /* hero.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742561C1D42E800317CF1 /* hero.png */; };
+		DFE742591C1D42F700317CF1 /* leader.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742581C1D42F700317CF1 /* leader.png */; };
+		DFE7425B1C1D42FB00317CF1 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE7425A1C1D42FB00317CF1 /* monster.png */; };
+		DFE7425D1C1D42FF00317CF1 /* redmonster.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE7425C1C1D42FF00317CF1 /* redmonster.png */; };
+		DFE7425F1C1D430F00317CF1 /* yellowmonster.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE7425E1C1D430F00317CF1 /* yellowmonster.png */; };
+		DFE742641C1D546A00317CF1 /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742611C1D546A00317CF1 /* wall.png */; };
+		DFE742651C1D546A00317CF1 /* singlewall.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742621C1D546A00317CF1 /* singlewall.png */; };
+		DFE742671C1D558E00317CF1 /* towncenter.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742661C1D558E00317CF1 /* towncenter.png */; };
+		DFE742691C1D5B9C00317CF1 /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE742681C1D5B9C00317CF1 /* coin.png */; };
+		DFE742711C1D634C00317CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE742701C1D634C00317CF1 /* Main.storyboard */; };
+		DFF32ACA1C1E03EA00C4C552 /* citizenzonesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF32AC91C1E03EA00C4C552 /* citizenzonesmall.png */; };
+		DFF32ACC1C1E04CC00C4C552 /* citizenzone.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF32ACB1C1E04CC00C4C552 /* citizenzone.png */; };
+		DFF32AD01C1E08F100C4C552 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF32ACF1C1E08F100C4C552 /* background.png */; };
+		DFF32AD31C1E0BFC00C4C552 /* barracks.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF32AD11C1E0BFC00C4C552 /* barracks.png */; };
+		DFF32AD41C1E0BFC00C4C552 /* farm.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF32AD21C1E0BFC00C4C552 /* farm.png */; };
+		DFF32AD61C1E2DA600C4C552 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF32AD51C1E2DA600C4C552 /* house.png */; };
+		DFF32AD91C1E755E00C4C552 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF32AD81C1E755E00C4C552 /* AboutViewController.m */; };
+		DFF32ADB1C1E8D2D00C4C552 /* subtabbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF32ADA1C1E8D2D00C4C552 /* subtabbackground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4640CB1F1C13CF0000E92700 /* raidersvres.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raidersvres.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4640CB231C13CF0000E92700 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4640CB251C13CF0000E92700 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4640CB261C13CF0000E92700 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4640CB2E1C13CF0000E92700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4640CB331C13CF0000E92700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4640CB3C1C13F95400E92700 /* StartScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScreenViewController.h; sourceTree = "<group>"; };
+		4640CB3D1C13F95400E92700 /* StartScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScreenViewController.m; sourceTree = "<group>"; };
+		4640CB421C13FF2100E92700 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		4640CB431C13FF2100E92700 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		4640CB451C140A6C00E92700 /* endGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endGameViewController.h; sourceTree = "<group>"; };
+		4640CB461C140A6C00E92700 /* endGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = endGameViewController.m; sourceTree = "<group>"; };
+		4640CB481C14FCE200E92700 /* AddStructureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddStructureViewController.h; sourceTree = "<group>"; };
+		4640CB491C14FCE200E92700 /* AddStructureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddStructureViewController.m; sourceTree = "<group>"; };
+		4640CB4B1C14FCFD00E92700 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
+		4640CB4C1C14FCFD00E92700 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
+		4640CB4E1C15143000E92700 /* sddfsfdsfsdfdsf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sddfsfdsfsdfdsf.jpeg; sourceTree = "<group>"; };
+		4640CB501C1547D400E92700 /* p1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1.jpeg; sourceTree = "<group>"; };
+		4640CB521C1547D900E92700 /* p2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.jpeg; sourceTree = "<group>"; };
+		46C8AAF51C1CB177006A381B /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
+		46C8AAFB1C1CB1BA006A381B /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		98D2C8631C1F2DC70087138E /* yellowhoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowhoard.png; sourceTree = "<group>"; };
+		98D2C8651C1F31A30087138E /* redhoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redhoard.png; sourceTree = "<group>"; };
+		98D2C8671C1F31A70087138E /* greenhoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenhoard.png; sourceTree = "<group>"; };
+		98D2C8711C1F5E230087138E /* fullheart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullheart.png; sourceTree = "<group>"; };
+		98D2C8731C1F5E280087138E /* lossone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lossone.png; sourceTree = "<group>"; };
+		98D2C8751C1F5E2C0087138E /* losstwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = losstwo.png; sourceTree = "<group>"; };
+		98D2C8771C1F5E300087138E /* lossthree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lossthree.png; sourceTree = "<group>"; };
+		DFE742291C1CCD2500317CF1 /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
+		DFE742311C1CFA3A00317CF1 /* try480320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = try480320.png; sourceTree = "<group>"; };
+		DFE742371C1D0E5700317CF1 /* realtitlescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realtitlescreen.png; sourceTree = "<group>"; };
+		DFE7423F1C1D237B00317CF1 /* endgame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = endgame.png; sourceTree = "<group>"; };
+		DFE7424F1C1D36D800317CF1 /* statsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statsViewController.h; path = ../statsViewController.h; sourceTree = "<group>"; };
+		DFE742501C1D36D800317CF1 /* statsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = statsViewController.m; path = ../statsViewController.m; sourceTree = "<group>"; };
+		DFE742521C1D3E6100317CF1 /* citizen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citizen.png; sourceTree = "<group>"; };
+		DFE742541C1D42DD00317CF1 /* farmer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = farmer.png; sourceTree = "<group>"; };
+		DFE742561C1D42E800317CF1 /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero.png; sourceTree = "<group>"; };
+		DFE742581C1D42F700317CF1 /* leader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leader.png; sourceTree = "<group>"; };
+		DFE7425A1C1D42FB00317CF1 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		DFE7425C1C1D42FF00317CF1 /* redmonster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redmonster.png; sourceTree = "<group>"; };
+		DFE7425E1C1D430F00317CF1 /* yellowmonster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowmonster.png; sourceTree = "<group>"; };
+		DFE742611C1D546A00317CF1 /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+		DFE742621C1D546A00317CF1 /* singlewall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singlewall.png; sourceTree = "<group>"; };
+		DFE742661C1D558E00317CF1 /* towncenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = towncenter.png; sourceTree = "<group>"; };
+		DFE742681C1D5B9C00317CF1 /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
+		DFE742701C1D634C00317CF1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DFF32AC91C1E03EA00C4C552 /* citizenzonesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citizenzonesmall.png; sourceTree = "<group>"; };
+		DFF32ACB1C1E04CC00C4C552 /* citizenzone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citizenzone.png; sourceTree = "<group>"; };
+		DFF32ACF1C1E08F100C4C552 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		DFF32AD11C1E0BFC00C4C552 /* barracks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barracks.png; sourceTree = "<group>"; };
+		DFF32AD21C1E0BFC00C4C552 /* farm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = farm.png; sourceTree = "<group>"; };
+		DFF32AD51C1E2DA600C4C552 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		DFF32AD71C1E755E00C4C552 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		DFF32AD81C1E755E00C4C552 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		DFF32ADA1C1E8D2D00C4C552 /* subtabbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subtabbackground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4640CB1C1C13CF0000E92700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4640CB161C13CF0000E92700 = {
+			isa = PBXGroup;
+			children = (
+				4640CB211C13CF0000E92700 /* raidersvres */,
+				4640CB201C13CF0000E92700 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4640CB201C13CF0000E92700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4640CB1F1C13CF0000E92700 /* raidersvres.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4640CB211C13CF0000E92700 /* raidersvres */ = {
+			isa = PBXGroup;
+			children = (
+				DFE742701C1D634C00317CF1 /* Main.storyboard */,
+				4640CB251C13CF0000E92700 /* AppDelegate.h */,
+				4640CB261C13CF0000E92700 /* AppDelegate.m */,
+				4640CB3C1C13F95400E92700 /* StartScreenViewController.h */,
+				4640CB3D1C13F95400E92700 /* StartScreenViewController.m */,
+				4640CB421C13FF2100E92700 /* MainScreen.h */,
+				4640CB431C13FF2100E92700 /* MainScreen.m */,
+				DFF32AD71C1E755E00C4C552 /* AboutViewController.h */,
+				DFF32AD81C1E755E00C4C552 /* AboutViewController.m */,
+				DFE7424F1C1D36D800317CF1 /* statsViewController.h */,
+				DFE742501C1D36D800317CF1 /* statsViewController.m */,
+				4640CB481C14FCE200E92700 /* AddStructureViewController.h */,
+				4640CB491C14FCE200E92700 /* AddStructureViewController.m */,
+				4640CB4B1C14FCFD00E92700 /* AddPersonViewController.h */,
+				4640CB4C1C14FCFD00E92700 /* AddPersonViewController.m */,
+				4640CB451C140A6C00E92700 /* endGameViewController.h */,
+				4640CB461C140A6C00E92700 /* endGameViewController.m */,
+				46C8AAF51C1CB177006A381B /* grass.png */,
+				DFE742521C1D3E6100317CF1 /* citizen.png */,
+				DFE742541C1D42DD00317CF1 /* farmer.png */,
+				DFE742561C1D42E800317CF1 /* hero.png */,
+				DFF32AC91C1E03EA00C4C552 /* citizenzonesmall.png */,
+				DFE742581C1D42F700317CF1 /* leader.png */,
+				98D2C8711C1F5E230087138E /* fullheart.png */,
+				98D2C8731C1F5E280087138E /* lossone.png */,
+				98D2C8751C1F5E2C0087138E /* losstwo.png */,
+				98D2C8771C1F5E300087138E /* lossthree.png */,
+				DFE7425A1C1D42FB00317CF1 /* monster.png */,
+				DFF32AD51C1E2DA600C4C552 /* house.png */,
+				DFF32ACF1C1E08F100C4C552 /* background.png */,
+				DFE742681C1D5B9C00317CF1 /* coin.png */,
+				DFF32ADA1C1E8D2D00C4C552 /* subtabbackground.png */,
+				DFE742371C1D0E5700317CF1 /* realtitlescreen.png */,
+				DFE7425E1C1D430F00317CF1 /* yellowmonster.png */,
+				98D2C8631C1F2DC70087138E /* yellowhoard.png */,
+				98D2C8651C1F31A30087138E /* redhoard.png */,
+				98D2C8671C1F31A70087138E /* greenhoard.png */,
+				DFF32ACB1C1E04CC00C4C552 /* citizenzone.png */,
+				DFE742291C1CCD2500317CF1 /* b1.png */,
+				4640CB4E1C15143000E92700 /* sddfsfdsfsdfdsf.jpeg */,
+				DFF32AD11C1E0BFC00C4C552 /* barracks.png */,
+				DFF32AD21C1E0BFC00C4C552 /* farm.png */,
+				DFE742661C1D558E00317CF1 /* towncenter.png */,
+				DFE7425C1C1D42FF00317CF1 /* redmonster.png */,
+				DFE742611C1D546A00317CF1 /* wall.png */,
+				DFE742621C1D546A00317CF1 /* singlewall.png */,
+				DFE7423F1C1D237B00317CF1 /* endgame.png */,
+				4640CB521C1547D900E92700 /* p2.jpeg */,
+				DFE742311C1CFA3A00317CF1 /* try480320.png */,
+				4640CB501C1547D400E92700 /* p1.jpeg */,
+				46C8AAFB1C1CB1BA006A381B /* tree.png */,
+				4640CB2E1C13CF0000E92700 /* Assets.xcassets */,
+				4640CB331C13CF0000E92700 /* Info.plist */,
+				4640CB221C13CF0000E92700 /* Supporting Files */,
+			);
+			path = raidersvres;
+			sourceTree = "<group>";
+		};
+		4640CB221C13CF0000E92700 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4640CB231C13CF0000E92700 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4640CB1E1C13CF0000E92700 /* raidersvres */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4640CB361C13CF0000E92700 /* Build configuration list for PBXNativeTarget "raidersvres" */;
+			buildPhases = (
+				4640CB1B1C13CF0000E92700 /* Sources */,
+				4640CB1C1C13CF0000E92700 /* Frameworks */,
+				4640CB1D1C13CF0000E92700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = raidersvres;
+			productName = raidersvres;
+			productReference = 4640CB1F1C13CF0000E92700 /* raidersvres.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4640CB171C13CF0000E92700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = GroupProject;
+				TargetAttributes = {
+					4640CB1E1C13CF0000E92700 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G4K74R2QUB;
+					};
+				};
+			};
+			buildConfigurationList = 4640CB1A1C13CF0000E92700 /* Build configuration list for PBXProject "raidersvres" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4640CB161C13CF0000E92700;
+			productRefGroup = 4640CB201C13CF0000E92700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4640CB1E1C13CF0000E92700 /* raidersvres */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4640CB1D1C13CF0000E92700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D2C8681C1F31A70087138E /* greenhoard.png in Resources */,
+				98D2C8741C1F5E280087138E /* lossone.png in Resources */,
+				DFF32AD31C1E0BFC00C4C552 /* barracks.png in Resources */,
+				DFF32ADB1C1E8D2D00C4C552 /* subtabbackground.png in Resources */,
+				98D2C8761C1F5E2C0087138E /* losstwo.png in Resources */,
+				DFE742321C1CFA3A00317CF1 /* try480320.png in Resources */,
+				DFF32AD41C1E0BFC00C4C552 /* farm.png in Resources */,
+				DFE7425B1C1D42FB00317CF1 /* monster.png in Resources */,
+				DFE742711C1D634C00317CF1 /* Main.storyboard in Resources */,
+				98D2C8781C1F5E300087138E /* lossthree.png in Resources */,
+				DFE742551C1D42DD00317CF1 /* farmer.png in Resources */,
+				DFF32ACC1C1E04CC00C4C552 /* citizenzone.png in Resources */,
+				46C8AAF61C1CB177006A381B /* grass.png in Resources */,
+				DFF32AD61C1E2DA600C4C552 /* house.png in Resources */,
+				DFF32AD01C1E08F100C4C552 /* background.png in Resources */,
+				DFE742641C1D546A00317CF1 /* wall.png in Resources */,
+				DFE742671C1D558E00317CF1 /* towncenter.png in Resources */,
+				46C8AAFC1C1CB1BA006A381B /* tree.png in Resources */,
+				DFE742591C1D42F700317CF1 /* leader.png in Resources */,
+				4640CB4F1C15143000E92700 /* sddfsfdsfsdfdsf.jpeg in Resources */,
+				DFE742401C1D237B00317CF1 /* endgame.png in Resources */,
+				4640CB511C1547D400E92700 /* p1.jpeg in Resources */,
+				DFE7425D1C1D42FF00317CF1 /* redmonster.png in Resources */,
+				DFF32ACA1C1E03EA00C4C552 /* citizenzonesmall.png in Resources */,
+				DFE7425F1C1D430F00317CF1 /* yellowmonster.png in Resources */,
+				DFE742571C1D42E800317CF1 /* hero.png in Resources */,
+				4640CB531C1547D900E92700 /* p2.jpeg in Resources */,
+				98D2C8661C1F31A30087138E /* redhoard.png in Resources */,
+				DFE742651C1D546A00317CF1 /* singlewall.png in Resources */,
+				4640CB2F1C13CF0000E92700 /* Assets.xcassets in Resources */,
+				DFE742691C1D5B9C00317CF1 /* coin.png in Resources */,
+				DFE742531C1D3E6100317CF1 /* citizen.png in Resources */,
+				98D2C8721C1F5E230087138E /* fullheart.png in Resources */,
+				DFE742381C1D0E5700317CF1 /* realtitlescreen.png in Resources */,
+				98D2C8641C1F2DC70087138E /* yellowhoard.png in Resources */,
+				DFE7422A1C1CCD2500317CF1 /* b1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4640CB1B1C13CF0000E92700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF32AD91C1E755E00C4C552 /* AboutViewController.m in Sources */,
+				4640CB4A1C14FCE200E92700 /* AddStructureViewController.m in Sources */,
+				4640CB471C140A6C00E92700 /* endGameViewController.m in Sources */,
+				4640CB441C13FF2100E92700 /* MainScreen.m in Sources */,
+				4640CB271C13CF0000E92700 /* AppDelegate.m in Sources */,
+				4640CB241C13CF0000E92700 /* main.m in Sources */,
+				4640CB3E1C13F95400E92700 /* StartScreenViewController.m in Sources */,
+				4640CB4D1C14FCFD00E92700 /* AddPersonViewController.m in Sources */,
+				DFE742511C1D36D800317CF1 /* statsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4640CB341C13CF0000E92700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4640CB351C13CF0000E92700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4640CB371C13CF0000E92700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = raidersvres/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.group.raidersvres;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4640CB381C13CF0000E92700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = raidersvres/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.group.raidersvres;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4640CB1A1C13CF0000E92700 /* Build configuration list for PBXProject "raidersvres" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4640CB341C13CF0000E92700 /* Debug */,
+				4640CB351C13CF0000E92700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4640CB361C13CF0000E92700 /* Build configuration list for PBXNativeTarget "raidersvres" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4640CB371C13CF0000E92700 /* Debug */,
+				4640CB381C13CF0000E92700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4640CB171C13CF0000E92700 /* Project object */;
+}
